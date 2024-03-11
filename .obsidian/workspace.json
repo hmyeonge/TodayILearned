@@ -11,8 +11,12 @@
             "id": "a4f1562d348963dd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "김영한의 자바입문/Test.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9d6c7cc4155d7c52",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "김영한의 자바입문/Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "김영한의 자바입문/Test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "새로운 파일입니다.md"
+                "file": "김영한의 자바입문/Test.md"
               }
             }
           }
@@ -140,8 +147,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "85ee8add37e6aa62",
+  "active": "a4f1562d348963dd",
   "lastOpenFiles": [
-    "새로운 파일입니다.md"
+    "새로운 파일입니다.md",
+    "김영한의 자바입문/Test.md",
+    "김영한의 자바입문"
   ]
 }
