@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Today I Learned/240311, 우당탕탕 Obsidian.md",
+                "file": "Today I Learned/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9d6c7cc4155d7c52",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Today I Learned/240311, 우당탕탕 Obsidian.md",
+                "file": "Today I Learned/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Today I Learned/240311, 우당탕탕 Obsidian.md",
+                "file": "Today I Learned/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Today I Learned/240311, 우당탕탕 Obsidian.md"
+                "file": "Today I Learned/무제 파일.md"
               }
             }
           }
@@ -147,10 +148,11 @@
       "markdown-importer:마크다운 형식 가져오기 열기": false
     }
   },
-  "active": "17fb5cddf527e620",
+  "active": "85ee8add37e6aa62",
   "lastOpenFiles": [
-    "README.md",
     "Today I Learned/240311, 우당탕탕 Obsidian.md",
+    "Today I Learned/무제 파일.md",
+    "README.md",
     "새로운 파일입니다.md",
     "Today I Learned"
   ]
