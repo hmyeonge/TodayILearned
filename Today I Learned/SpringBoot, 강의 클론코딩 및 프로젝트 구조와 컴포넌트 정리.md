@@ -1,4 +1,93 @@
-그리고 강의를 따라하던 중 프로젝트의 구조와 각 컴포넌트의 역할을 제대로 알아야 하겠다는 필요성을 느껴 정리해보았다.
+# 게시글 리스트 만들기
+
+---
+
+## 테스트 데이터 프로시저
+
+```java
+DELIMITER $$
+
+CREATE PROCEDURE testDataInsert()
+BEGIN
+    DECLARE i INT DEFAULT 1;
+
+    WHILE i <= 120 DO
+        INSERT INTO board(title, content)
+          VALUES(concat('제목',i), concat('내용',i));
+        SET i = i + 1;
+    END WHILE;
+END$$
+DELIMITER $$
+```
+
+위를 MySQL 워크벤치에 붙여넣고 ctrl + enter
+
+[`BoardController.java`](http://BoardController.java) 코드 추가
+
+```java
+@GetMapping("/board/list")
+    public String boardList() {
+
+        return "boardlist";
+    }
+```
+
+return 할 boardlist 를 생성
+
+→ resources - templates - boardlist.html 파일 생성 (철자주의)
+
+`boardlist.html` 파일에 코드 추가
+
+<body> 태그 안에 layout 클래스와 table 을 생성
+
+```java
+<body>
+
+    <div class = "layout">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>글번호</th>
+                    <th>제목</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>제목입니다</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+```
+
+<head> 와 <body> 사이에 <style> 태그 생성
+
+```css
+<style>
+
+    .layout{
+        width : 500px;
+        margin : 0 auto;
+        margin-top : 50px;
+    }
+
+</style>
+```
+
+마지막에 [http://localhost:8080/board/list](http://localhost:8080/board/list) 링크에서 아래를 확인 가능함
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/94d6368e-ae1e-4639-9179-b054aba35ec1/53a42847-dcf3-49a6-bd19-fa4eaa3b1f50/Untitled.png)
+
+# 스스로 정리
+
+---
+
+강의를 따라하던 중 프로젝트의 구조와 각 컴포넌트의 역할을 제대로 알아야 하겠다는 필요성을 느껴 정리해보았다.
 
 ## 프로젝트 구조를 바탕으로 컴포넌트의 역할 보기
 
@@ -12,7 +101,7 @@
 
 ```java
 @Autowired // 스프링이 자동으로 BoardService 타입에 맞는 빈(bean)을 찾아 boardService 참조변수를 할당함
-    private BoardService boardService; 
+    private BoardService boardService; // BoardService 타입의 객체를 사용하기 위한 참조변수를 선언함
 
 ```
 

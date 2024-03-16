@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Today I Learned/무제 파일.md",
+                "file": "Today I Learned/SpringBoot, 강의 클론코딩 및 프로젝트 구조와 컴포넌트 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Today I Learned/무제 파일.md",
+                "file": "Today I Learned/SpringBoot, 강의 클론코딩 및 프로젝트 구조와 컴포넌트 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Today I Learned/무제 파일.md",
+                "file": "Today I Learned/SpringBoot, 강의 클론코딩 및 프로젝트 구조와 컴포넌트 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Today I Learned/무제 파일.md"
+                "file": "Today I Learned/SpringBoot, 강의 클론코딩 및 프로젝트 구조와 컴포넌트 정리.md"
               }
             }
           }
@@ -148,10 +148,10 @@
       "markdown-importer:마크다운 형식 가져오기 열기": false
     }
   },
-  "active": "85ee8add37e6aa62",
+  "active": "17fb5cddf527e620",
   "lastOpenFiles": [
     "Today I Learned/240311, 우당탕탕 Obsidian.md",
-    "Today I Learned/무제 파일.md",
+    "Today I Learned/SpringBoot, 강의 클론코딩 및 프로젝트 구조와 컴포넌트 정리.md",
     "README.md",
     "새로운 파일입니다.md",
     "Today I Learned"
