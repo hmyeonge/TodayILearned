@@ -65,7 +65,7 @@ return 할 boardlist 를 생성
 </body>
 ```
 
-<head> 태그와 <body> 태그 사이에 <style> 태그 생성
+head 태그와 body 태그  사이에 <style> 태그 생성
 
 ```css
 <style>
